@@ -108,6 +108,7 @@ public class Robot extends TimedRobot {
     SmartDashboard.putNumber("Drive Max Output", drive_kMaxOutput);
     SmartDashboard.putNumber("Drive Min Output", drive_kMinOutput);
 
+    
     GamepadController = new Joystick(GAMEPAD_ID);
   }
 
